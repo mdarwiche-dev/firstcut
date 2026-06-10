@@ -1,0 +1,46 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`priceQuote — §7.3 worked example > snapshot of the full breakdown 1`] = `
+{
+  "inputs": {
+    "blank": {
+      "l": 7.75,
+      "t": 1.25,
+      "w": 3.45,
+    },
+    "densityLbIn3": 0.1019,
+    "dfars": false,
+    "qty": 4,
+    "ratePerLb": 6.5,
+    "thicknessIndex": 5,
+  },
+  "leadTime": {
+    "contributors": [
+      "base: 2 business days",
+    ],
+    "days": 2,
+    "shipDate": "2026-06-11",
+  },
+  "linesCents": {
+    "cutting": 13400,
+    "cuttingPerPiece": 3350,
+    "dfarsAdder": 0,
+    "lineMinAdjustment": 0,
+    "lineSubtotal": 24753,
+    "lineTotal": 29209,
+    "margin": 4456,
+    "material": 8853,
+    "qtyBreakRate": 0,
+    "qtyDiscount": 0,
+    "setup": 2500,
+  },
+  "orderCents": {
+    "orderMinAdjustment": 0,
+    "subtotal": 29209,
+    "total": 29209,
+  },
+  "priceBookId": "pb_7075_2026-01-01",
+  "validUntil": "2026-06-23",
+  "weightLb": 13.62,
+}
+`;
