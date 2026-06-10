@@ -4,6 +4,8 @@
 
 Upload a part drawing (PDF), a STEP file, or a pasted spec. Claude **extracts** the part envelope and material spec; deterministic TypeScript **converts** the envelope to a recommended stock blank, **validates** it against a catalog, and **prices** it with a fully itemized, hand-recomputable breakdown. Every uncertainty surfaces as an explicit assumption (amber) or needs-review flag (red) — never a silent guess.
 
+<p align="center"><img src="docs/quote-page.png" width="720" alt="Quote page: fields extracted live from a PDF drawing with per-field confidence and source, envelope-to-blank visual, 3-axis orientation search, hand-recomputable $292.09 breakdown, and the inventory-nesting comparison saving $22.59 against a seeded remnant"></p>
+
 ## Architecture: the extract / price split
 
 **The LLM never prices anything and never decides validity. It only extracts.**
